@@ -1,4 +1,4 @@
-  <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
   <rss version="2.0">
     <channel>
       <title>Lesh NGCA Tab 更新日誌</title>
@@ -22,5 +22,4 @@
   切換改為依時段平滑過渡。</description>
       </item>
 
-    </channel>
-  </rss>
+    </channel></rss>
