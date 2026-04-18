@@ -1,0 +1,26 @@
+  <?xml version="1.0" encoding="UTF-8"?>
+  <rss version="2.0">
+    <channel>
+      <title>Lesh NGCA Tab 更新日誌</title>
+      <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
+      <description>Lesh NGCA Tab 版本更新與功能紀錄</description>
+      <language>zh-TW</language>
+
+      <item>
+        <title>v1.2.1 — 碎嘴牆強化 + RSS 優化</title>
+        <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
+        <pubDate>Sat, 18 Apr 2026 00:00:00 +0800</pubDate>
+        <description>新增碎嘴牆入場警語、私訊讀後銷毀、封鎖單人、私訊開關功能。強化 Firebase 安全規則。RSS
+  新增繁中來源預設選項與多 proxy 自動切換機制。</description>
+      </item>
+
+      <item>
+        <title>v1.2.0 — 問AI、天氣中文化、計算機</title>
+        <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
+        <pubDate>Mon, 01 Apr 2026 00:00:00 +0800</pubDate>
+        <description>新增問AI模式支援 Gemini、ChatGPT、Perplexity。天氣描述改為繁體中文。加入計算機模式取代搜尋欄。背景
+  切換改為依時段平滑過渡。</description>
+      </item>
+
+    </channel>
+  </rss>
