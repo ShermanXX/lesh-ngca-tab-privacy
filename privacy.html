@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="zh-TW">
   <head>
     <meta charset="UTF-8">
@@ -7,25 +7,33 @@
     <style>
       body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.8; color:
   #333; }
-      h1 { font-size: 1.8em; } h2 { font-size: 1.2em; margin-top: 2em; }
+      h1 { font-size: 1.8em; }
+      h2 { font-size: 1.2em; margin-top: 2em; }
       footer { margin-top: 3em; font-size: 0.85em; color: #888; }
     </style>
   </head>
   <body>
     <h1>Lesh NGCA Tab 隱私權政策</h1>
-    <p>最後更新：2026年4月18日</p>
+    <p>最後更新：2026年4月20日</p>
 
     <h2>收集的資料</h2>
-    <p>本擴充功能僅在使用者授權時存取裝置的 GPS
-  位置資訊，用於顯示當地即時天氣。位置資料不會被儲存、傳送至任何伺服器或用於其他用途。</p>
+    <ul>
+      <li><strong>位置資訊：</strong>僅在使用者授權時存取 GPS 位置，用於顯示當地即時天氣，不儲存、不上傳。</li>
+      <li><strong>聊天內容：</strong>碎嘴牆廣播與私訊功能中，使用者輸入的暱稱與訊息內容會暫時儲存於
+  Firebase。私訊採讀後銷毀機制，廣播訊息保留最近數筆後自動淘汰。</li>
+      <li><strong>本地資料：</strong>私訊歷史紀錄、使用者設定等資料儲存於瀏覽器本地（localStorage /
+  chrome.storage），不會上傳至任何伺服器。</li>
+    </ul>
 
     <h2>第三方服務</h2>
     <ul>
       <li>wttr.in / open-meteo.com — 天氣資料</li>
       <li>Google Calendar API — 行事曆事件（需使用者授權）</li>
+      <li>Google Chrome Search API — 網頁搜尋（使用用戶預設搜尋引擎）</li>
       <li>suggestqueries.google.com — 搜尋自動完成</li>
       <li>SomaFM — 背景音樂串流</li>
-      <li>Firebase Realtime Database — 即時資料同步</li>
+      <li>Firebase Realtime Database — 碎嘴牆即時訊息暫存</li>
+      <li>rss2json.com / corsproxy.io / allorigins.win / codetabs.com — RSS 訂閱代理</li>
     </ul>
 
     <h2>資料不會被販售或分享</h2>
@@ -36,4 +44,4 @@
 
     <footer><a href="/">← 返回首頁</a></footer>
   </body>
-  </html>
+ </html>
