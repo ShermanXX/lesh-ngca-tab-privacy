@@ -7,6 +7,20 @@
       <language>zh-TW</language>
 
       <item>
+        <title>v1.3.5 — 初次使用導覽系統 + 記憶體優化</title>
+        <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
+        <pubDate>Wed, 23 Apr 2026 00:00:00 +0800</pubDate>
+        <description>新增完整初次使用導覽（Onboarding）：語言、天氣、語錄風格、桌布偏好設定，以及 Spotlight 功能導覽。卡片智慧定位，自動避開被介紹的功能區塊。新增夜間電台自動切換與動態 Lo-fi 串流。修正自訂桌布切回預設時無法正確還原的問題。優化 IndexedDB 連線快取與 crossfade 後舊圖層記憶體釋放。</description>
+      </item>
+
+      <item>
+        <title>v1.3.0 — Google Apps 側欄重設計 + 夜間音樂</title>
+        <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
+        <pubDate>Tue, 22 Apr 2026 00:00:00 +0800</pubDate>
+        <description>右側欄改為 Google Apps 啟動器，支援三段展開、拖曳排序（編輯模式）。左側欄新增捷徑詳細編輯面板與動態寬度。音樂播放器新增 Space Station Soma 頻道與動態 Lo-fi 串流（Radio Browser API + Chillhop 備援）。新增語錄四種風格框架（幹話／立志／積極／消極）。</description>
+      </item>
+
+      <item>
         <title>v1.2.1 — 碎嘴牆強化 + RSS 優化</title>
         <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
         <pubDate>Sat, 18 Apr 2026 00:00:00 +0800</pubDate>
