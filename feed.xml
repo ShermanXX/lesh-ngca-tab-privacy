@@ -1,40 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-  <rss version="2.0">
-    <channel>
-      <title>Lesh NGCA Tab 更新日誌</title>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Lesh NGCA Tab 更新日誌</title>
+    <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
+    <description>Lesh NGCA Tab 版本更新與功能紀錄</description>
+    <language>zh-TW</language>
+
+    <item>
+      <title>v1.3.7 — 完整多國語言支援</title>
       <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
-      <description>Lesh NGCA Tab 版本更新與功能紀錄</description>
-      <language>zh-TW</language>
+      <pubDate>Sat, 10 May 2026 00:00:00 +0800</pubDate>
+      <description>全介面 i18n 補完：日曆、音樂播放器、Onboarding、RSS 動態等所有模組均支援繁中／英文／日文／韓文自動切換。Google Apps 側欄名稱同步本地化。設定面板版本號改為從 manifest 動態讀取，不再需要手動維護。新增依螢幕解析度自動調整 UI 縮放比例，在各種尺寸的顯示器上均可獲得最佳排版體驗。</description>
+    </item>
 
-      <item>
-        <title>v1.3.5 — 初次使用導覽系統 + 記憶體優化</title>
-        <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
-        <pubDate>Wed, 23 Apr 2026 00:00:00 +0800</pubDate>
-        <description>新增完整初次使用導覽（Onboarding）：語言、天氣、語錄風格、桌布偏好設定，以及 Spotlight 功能導覽。卡片智慧定位，自動避開被介紹的功能區塊。新增夜間電台自動切換與動態 Lo-fi 串流。修正自訂桌布切回預設時無法正確還原的問題。優化 IndexedDB 連線快取與 crossfade 後舊圖層記憶體釋放。</description>
-      </item>
+    <item>
+      <title>v1.3.5 — Google 行事曆整合</title>
+      <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0800</pubDate>
+      <description>新增 Google Calendar Widget，支援 OAuth2 授權、今日行程列表、行程詳情展開與 Token 自動刷新。行程欄位顯示地點與描述，可直接跳轉 Google 日曆。</description>
+    </item>
 
-      <item>
-        <title>v1.3.0 — Google Apps 側欄重設計 + 夜間音樂</title>
-        <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
-        <pubDate>Tue, 22 Apr 2026 00:00:00 +0800</pubDate>
-        <description>右側欄改為 Google Apps 啟動器，支援三段展開、拖曳排序（編輯模式）。左側欄新增捷徑詳細編輯面板與動態寬度。音樂播放器新增 Space Station Soma 頻道與動態 Lo-fi 串流（Radio Browser API + Chillhop 備援）。新增語錄四種風格框架（幹話／立志／積極／消極）。</description>
-      </item>
+    <item>
+      <title>v1.3.0 — 作者 RSS 動態 + 夜間音樂自動切換</title>
+      <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0800</pubDate>
+      <description>新增 RSS Widget 支援訂閱任意 RSS/Atom 來源，多 proxy 競速取得最快結果。音樂播放器新增夜間自動切換頻道功能，可自訂時段與頻道。新增 Google Apps 側欄排序拖曳編輯模式。</description>
+    </item>
 
-      <item>
-        <title>v1.2.1 — 碎嘴牆強化 + RSS 優化</title>
-        <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
-        <pubDate>Sat, 18 Apr 2026 00:00:00 +0800</pubDate>
-        <description>新增碎嘴牆入場警語、私訊讀後銷毀、封鎖單人、私訊開關功能。強化 Firebase 安全規則。RSS
-  新增繁中來源預設選項與多 proxy 自動切換機制。</description>
-      </item>
+    <item>
+      <title>v1.2.1 — 碎嘴牆強化 + RSS 優化</title>
+      <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0800</pubDate>
+      <description>新增碎嘴牆入場警語、私訊讀後銷毀、封鎖單人、私訊開關功能。強化 Firebase 安全規則。RSS 新增繁中來源預設選項與多 proxy 自動切換機制。</description>
+    </item>
 
-      <item>
-        <title>v1.2.0 — 問AI、天氣中文化、計算機</title>
-        <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
-        <pubDate>Mon, 01 Apr 2026 00:00:00 +0800</pubDate>
-        <description>新增問AI模式支援 Gemini、ChatGPT、Perplexity。天氣描述改為繁體中文。加入計算機模式取代搜尋欄。背景
-  切換改為依時段平滑過渡。</description>
-      </item>
+    <item>
+      <title>v1.2.0 — 問AI、天氣中文化、計算機</title>
+      <link>https://shermanxx.github.io/lesh-ngca-tab-privacy/</link>
+      <pubDate>Mon, 01 Apr 2026 00:00:00 +0800</pubDate>
+      <description>新增問AI模式支援 Gemini、ChatGPT、Perplexity。天氣描述改為繁體中文。加入計算機模式取代搜尋欄。背景切換改為依時段平滑過渡。</description>
+    </item>
 
-    </channel>
-  </rss>
+  </channel>
+</rss>
